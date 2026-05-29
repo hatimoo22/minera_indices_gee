@@ -1,0 +1,22 @@
+[general]
+name=Minera Indices GEE
+qgisMinimumVersion=3.0
+description=Compute mineral spectral indices directly from Google Earth Engine for ASTER, Landsat 5/7/8/9, and Sentinel-2. Draw AOI on canvas, pick date range, apply cloud masking, and download results as GeoTIFF.
+version=1.0.0
+author=Hatim
+email=hatimoo22@live.com
+
+about=Minera Indices GEE connects to Google Earth Engine to compute mineral spectral indices server-side. Draw an area of interest on the QGIS canvas, select a satellite sensor and date range, choose indices (Iron Oxide, Ferrous, Clay, Alunite, Kaolinite, Carbonate, Gossan, Silica, NDVI and more), apply automatic cloud masking, and export results as GeoTIFF files loaded directly into your QGIS project. Requires an active GEE account and the earthengine-api Python package.
+
+tracker=https://github.com/hatimoo22/minera_indices_gee/issues
+repository=https://github.com/hatimoo22/minera_indices_gee
+homepage=https://github.com/hatimoo22/minera_indices_gee
+
+tags=remote sensing, geology, minerals, spectral indices, Google Earth Engine, GEE, ASTER, Landsat, Sentinel-2, mining, alteration, cloud masking
+
+category=Raster
+icon=
+experimental=False
+deprecated=False
+
+server=False
